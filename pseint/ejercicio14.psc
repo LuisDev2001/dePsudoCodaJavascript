@@ -9,11 +9,10 @@ Algoritmo ejercicio14
 		Escribir " 1.- Verde"
 		Escribir " 2.- Blanco"
 		Escribir " 3.- Rojo"
-
 		Repetir
 			Leer color;
 			Si color<1 O color>3 Entonces
-				Escribir Sin Saltar "Valor incorrecto. Ingréselo nuevamente.: "
+				Escribir "Valor incorrecto. Ingréselo nuevamente.: "
 			FinSi
 		Hasta Que color>=1 Y color<=3
 		
@@ -28,8 +27,8 @@ Algoritmo ejercicio14
 		FinSi
     FinPara
 	
-    Escribir "Cantidad de focos verdes: ", (focosVerdes*n)/100, "%"
-    Escribir "Cantidad de focos blancos: ", (focosBlancos*n)/100, "%"
-    Escribir "Cantidad de focos rojos: ", (focosRojos*n)/100, "%"
+    Escribir "Cantidad de focos verdes: ", focosVerdes
+    Escribir "Cantidad de focos blancos: ", focosBlancos
+    Escribir "Cantidad de focos rojos: ", focosRojos
 	
 FinAlgoritmo

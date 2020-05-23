@@ -5,31 +5,33 @@ let color = 0;
 let n = Number(prompt("Ingrese el valor de n"));
 
 for (let i = 1; i <= n; i++) {
-  color = Number(
-    prompt(`
-      Seleccione el color del foco
-      1.- Verde
-      2.- Blanco
-      3.- Rojo
-  `)
-  );
+  alert(`
+   PROCESO ${i}
+    Seleccione el color del foco
+    1.- Verde
+    2.- Blanco
+    3.- Rojo
+  `);
 
-  console.log(color);
+  color = Number(prompt("Ingrese un numero del menu"));
+  /*I NEED A HELP FOR VALIDATION NUMBERS PLS :( */
 
-  do {
-    if (color < 1 || color > 3) {
-      color = prompt(`Valor incorrecto, Ingréselo nuevamente`);
-    }
-  } while (color >= 1 && color <= 3);
+  // do {
+  //   console.log(color);
+  //   if (color < 1 || color > 3) {
+  //     color = Number(prompt(`Valor incorrecto, Ingréselo nuevamente`));
+  //     console.log(color);
+  //   }
+  // } while (color >= 1 && color <= 3);
 
   if (color === 1) {
-    focosVerdes = focosVerdes + 1;
+    focosVerdes += 1;
   }
   if (color === 2) {
-    focosBlancos = focosBlancos + 1;
+    focosBlancos += 1;
   }
   if (color === 3) {
-    focosRojos = focosRojos + 1;
+    focosRojos += 1;
   }
 }
 
