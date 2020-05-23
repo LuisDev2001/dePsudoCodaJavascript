@@ -1,0 +1,15 @@
+1.-La importancia de usar un algoritmo es que podemos encontrar una solucion 
+paso con paso y pueda usarse para la resolucion del problema.
+
+2.-Un algoritmo en una empresa puede reducir costos, ya que se puede
+construir un algoritmo para automaizar algunas funcionalidades.
+Se puede realizar un algoritmo para analizar data de los usuarios, en este
+caso ya estamos automatizando algo en ves de estar leyendo uno por uno.
+Un algotirmo puede mejorar las ventas, o automatizar las llamadas que se hace 
+a la empresa con una contestadora.
+
+3.- No, dentro de la empresa hay mas algoritmos como el de la tienda por ejemplo
+añadir productos al carrito, los filtros segun lo quiera el usuario, talvez un 
+chatbot con machine learning. Un algoritmo para analizar los altos y bajos de las
+ventas. Cuantos usuarios visitian la tienda. Preferencias de los usuarios. Un algoritmo
+para poder detectar cuantos quieren delivery o recojer en tienda.
