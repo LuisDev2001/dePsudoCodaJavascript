@@ -1,11 +1,11 @@
 Algoritmo ejercicio12
 	Definir salario, incremento, anualConAumento, totalCadaAnio como Real
-	incremento = 0.10 //Cada año se aumento un 10%
+	incrementoAnual = 0.10 //Cada año se aumento un 10%
 	
 	Escribir "Ingrese su salario inicial $"
 	Leer salario
 	anualSalario = (salario * 12)
-	anualConAumento = anualSalario * incremento
+	anualConAumento = anualSalario * incrementoAnual
 	
 	Escribir "El aumento por cada año es: ",anualConAumento
 	Para i<-1 Hasta 6 Con Paso 1 Hacer

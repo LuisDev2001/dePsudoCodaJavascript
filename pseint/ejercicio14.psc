@@ -4,11 +4,11 @@ Algoritmo ejercicio14
     Escribir "Ingrese el valor de n:"
     Leer n
     Para i<-1 Hasta n Con Paso 1 Hacer
-	Escribir "PROCESO ", i
-	Escribir "Seleccione el valor de color."
-	Escribir " 1.- verde"
-	Escribir " 2.- blanco"
-	Escribir " 3.- rojo"
+		Escribir "PROCESO ", i
+		Escribir "Seleccione el color del foco"
+		Escribir " 1.- Verde"
+		Escribir " 2.- Blanco"
+		Escribir " 3.- Rojo"
 		
 		Repetir
 			Leer color;
@@ -28,8 +28,8 @@ Algoritmo ejercicio14
 		FinSi
     FinPara
 	
-    Escribir "Valor de focos verdes: ", focosVerdes
-    Escribir "Valor de focos blancos: ", focosBlancos
-    Escribir "Valor de focos rojos: ", focosRojos
+    Escribir "Cantidad de focos verdes: ", (focosVerdes/100), "%"
+    Escribir "Cantidad de focos blancos: ", (focosBlancos/100), "%"
+    Escribir "Cantidad de focos rojos: ", (focosRojos/100), "%"
 	
 FinAlgoritmo
